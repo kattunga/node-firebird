@@ -42,7 +42,8 @@ declare module 'node-firebird' {
         password?: string;
         lowercase_keys?: boolean;
         role?: string;           
-        pageSize?: number; 
+        pageSize?: number;
+        characterSet?: string; 
     }
 
     export interface ConnectionPool {
